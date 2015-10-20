@@ -1,0 +1,42 @@
+{
+  "name": "bixby-xmpp",
+  "version": "0.0.0",
+  "description": "TODO: No description specified",
+  "keywords": [
+    "xmpp"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bixbyjs/bixby-xmpp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/bixbyjs/bixby-xmpp/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "node-xmpp-client": "^2.0.2",
+    "node-xmpp-component": "^1.0.0",
+    "node-xmpp-server": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
