@@ -1,7 +1,7 @@
 {
   "name": "bixby-xmpp",
-  "version": "0.0.0",
-  "description": "TODO: No description specified",
+  "version": "0.1.0",
+  "description": "XMPP components for the Bixby framework.",
   "keywords": [
     "xmpp"
   ],
