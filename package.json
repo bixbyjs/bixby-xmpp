@@ -23,7 +23,13 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "./lib",
+  "main": "./app",
+  "assembly": {
+    "namespace": "xmpp",
+    "components": [
+      "client"
+    ]
+  },
   "dependencies": {
     "node-xmpp-client": "^2.0.2",
     "node-xmpp-component": "^1.0.0",
